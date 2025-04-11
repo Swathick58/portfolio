@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./Hero.module.css";
 
-
+import { getImageUrl } from "../../utils";
 export const Hero: React.FC = () => {
   return (
     <section className={styles.container}>
@@ -16,10 +16,12 @@ export const Hero: React.FC = () => {
         </a>
       </div>
       <img
-         src="/assets/hero/heroImage.jpeg"
-         alt="Hero image of me"
-        className={styles.heroImg}
-      />
+  className="heroImg w-10 h-auto" // Adjust w-40 to any size you want
+  src={getImageUrl("hero/heroimage.jpg")}
+  alt="Hero"
+/>
+
+     
 
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
