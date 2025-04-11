@@ -1,0 +1,18 @@
+[
+    {
+     "title": "Intrusion detection in Banking System using Machine Learning",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to detect cyberattacks in Banking.",
+      "skills": ["Artificial Intellingence", "Python", "Machine Learning"],
+      
+      "source": "https://github.com/Swathick58/intrusion-detection-in-banking"
+    },
+    {
+      "title": "Glaucoma detection using CNN",
+       "imageSrc": "projects/Glaucoma.jpg",
+       "description": "This is a project made to detect Glaucoma disease using CNN..",
+       "skills": ["CNN Algorithm", "Python", "Machine Learning"],
+       
+       "source": "https://github.com/Swathick58/Glaucoma-detection-using-CNN.git"
+     }
+  ]
